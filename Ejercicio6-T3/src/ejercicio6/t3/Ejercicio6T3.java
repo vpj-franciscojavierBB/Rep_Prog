@@ -20,7 +20,7 @@ public class Ejercicio6T3 {
     Scanner entrada = new Scanner(System.in);
         
        
-    System.out.print("Por favor, introduzca la nota del alumno (0 - 10): ");// Pedir al usuario que introduzca una nota
+    System.out.print("Introduzca la nota del alumno (0 - 10): ");// Pedir al usuario que introduzca una nota
     
     int nota = entrada.nextInt();
         
@@ -30,13 +30,13 @@ public class Ejercicio6T3 {
             } else {
             
             if (nota >= 0 && nota <= 4) {//  rango de la nota
-                System.out.println("Calificacion: Suspenso.");
+                System.out.println("Suspenso.");
             } else if (nota >= 5 && nota <= 6) {
-                System.out.println("Calificacion: Bien.");
+                System.out.println("Bien.");
             } else if (nota >= 7 && nota <= 8) {
-                System.out.println("Calificacion: Notable.");
+                System.out.println("Notable.");
             } else {
-                System.out.println("Calificacion: Sobresaliente.");
+                System.out.println("Sobresaliente.");
             }
         }
         // TODO code application logic here
