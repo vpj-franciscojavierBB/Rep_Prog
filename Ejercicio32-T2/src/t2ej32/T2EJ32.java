@@ -29,7 +29,7 @@ public class T2EJ32 {
         
         System.out.println("Necesitas " + b50 + " billetes de 50; " +
         b20 + " billetes de 20, " + b10 + " billetes de 10, " + b5 + 
-                " billetes de 5" + m2 + " monedas de 2 euros " + " y " + 
+                " billetes de 5, " + m2 + " monedas de 2 euros " + " y " + 
                 m1 + " mondedas de 1 euro");
                 
         
