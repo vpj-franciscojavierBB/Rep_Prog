@@ -25,19 +25,19 @@ public class Ejercicio6T3 {
     int nota = entrada.nextInt();
         
      
-            if (nota < 0 || nota > 10) {// Comprobar si la nota es válida
+        if (nota < 0 || nota > 10) {// Comprobar si la nota es válida
             System.out.println("Error: la nota introducida no es válida. Debe estar entre 0 y 10.");
-            } else {
+        } else {
             
-            if (nota >= 0 && nota <= 4) {//  rango de la nota
+        if (nota <= 4) {//  rango de la nota
                 System.out.println("Suspenso.");
-            } else if (nota >= 5 && nota <= 6) {
+        } else if (nota >= 5 && nota <= 6) {
                 System.out.println("Bien.");
-            } else if (nota >= 7 && nota <= 8) {
+        } else if (nota >= 7 && nota <= 8) {
                 System.out.println("Notable.");
-            } else {
-                System.out.println("Sobresaliente.");
-            }
+        } else {
+        System.out.println("Sobresaliente.");
+    }
         }
         // TODO code application logic here
     }
