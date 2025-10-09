@@ -31,14 +31,14 @@ public class Ejercicio9T3 {
         System.out.print("Intruduzca el ultimo numero: ");
         int d = entrada.nextInt();
         
-        int temp;// Ordenar los números 
+        int numeros;// Ordenar los números 
 
-        if (a > b) { temp = a; a = b; b = temp; }
-        if (a > c) { temp = a; a = c; c = temp; }
-        if (a > d) { temp = a; a = d; d = temp; }
-        if (b > c) { temp = b; b = c; c = temp; }
-        if (b > d) { temp = b; b = d; d = temp; }
-        if (c > d) { temp = c; c = d; d = temp; }
+        if (a > b) { numeros = a; a = b; b = numeros; }
+        if (a > c) { numeros = a; a = c; c = numeros; }
+        if (a > d) { numeros = a; a = d; d = numeros; }
+        if (b > c) { numeros = b; b = c; c = numeros; }
+        if (b > d) { numeros = b; b = d; d = numeros; }
+        if (c > d) { numeros = c; c = d; d = numeros; }
 
         System.out.println("El orden es  " + a + " - " + b + " - " + c + " - " + d);
     
