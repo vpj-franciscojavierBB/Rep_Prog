@@ -17,24 +17,25 @@ public class Ejercicio26T2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    System.out.print("Por favor, introduzca un numero de 4 cifras: ");
-    
-    Scanner scanner = new Scanner(System.in); 
-             
-     String numero = scanner.nextLine();
-        
-        // Comprobar que tiene 4 cifras y que son dígitos
-        if (numero.length() == 4 && numero.matches("\\d{4}")) {
-            System.out.println("La primera cifra es: " + numero.charAt(0));
-            System.out.println("La segunda cifra es: " + numero.charAt(1));
-            System.out.println("La tercera cifra es: " + numero.charAt(2));
-            System.out.println("La cuarta cifra es: " + numero.charAt(3));
+                Scanner scanner = new Scanner(System.in);
+        System.out.print("Introduce un numero de 4 cifras: ");
+        int numero = scanner.nextInt();
+
+        // Comprobar que tiene 4 cifras
+        if (numero >= 1000 && numero <= 9999) {
+            int primera = numero / 1000;
+            int segunda = (numero / 100) % 10;
+            int tercera = (numero / 10) % 10;
+            int cuarta = numero % 10;
+
+            System.out.println("La primera cifra es: " + primera);
+            System.out.println("La segunda cifra es: " + segunda);
+            System.out.println("La tercera cifra es: " + tercera);
+            System.out.println("La cuarta cifra es: " + cuarta);
         } else {
-            System.out.println("Error: Debes introducir un número de exactamente 4 cifras.");
+            System.out.println("Error: Debes introducir un numero de exactamente 4 cifras.");
         }
-        
-    
-        // TODO code application logic here
     }
-    
 }
+    
+
