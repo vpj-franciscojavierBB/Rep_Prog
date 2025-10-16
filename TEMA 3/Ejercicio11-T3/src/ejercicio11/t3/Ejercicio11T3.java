@@ -14,9 +14,7 @@ public class Ejercicio11T3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int i;    
-        
-        for (i = 0; i <= 6; i++) {
+    for (int i = 0; i <= 6; i++) {
             System.out.print("Hola" + i);
             if (i < 6) {
                 System.out.print(" - ");
