@@ -15,11 +15,11 @@ public class Ejercicio11T3 {
      */
     public static void main(String[] args) {
     for (int i = 0; i <= 6; i++) {
-            System.out.print("Hola" + i);
-            if (i < 6) {
-                System.out.print(" - ");
-            }
+        System.out.print("Hola" + i);
+        if (i < 6) {
+        System.out.print(" - ");
         }
+    }
         System.out.println(); // Salto de línea final
     }
 }        
@@ -28,4 +28,4 @@ public class Ejercicio11T3 {
     
     
 
-   
+    
