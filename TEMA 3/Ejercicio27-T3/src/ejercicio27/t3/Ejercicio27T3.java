@@ -72,6 +72,6 @@ import java.util.InputMismatchException;
 
         } while (opcion != 5);
 
-        scanner.close();
+      
     }
 }
