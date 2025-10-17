@@ -18,22 +18,22 @@ import java.util.InputMismatchException;
         double num1, num2;
         int opcion;
 
-        // Solicitar los dos números al usuario
-        System.out.print("Introduce el primer numero: ");
+       
+        System.out.print("Introduce el primer numero: "); // Solicitar los dos números al usuario
         num1 = scanner.nextDouble();
 
         System.out.print("Introduce el segundo numero: ");
         num2 = scanner.nextDouble();
 
-        // Bucle del menú
-        do {
+        
+        do { // Bucle del menú
             System.out.println("\n--- MENÚ ---");
             System.out.println("1.- Sumar los numeros");
             System.out.println("2.- Restar los numeros");
             System.out.println("3.- Multiplicar los numeros");
             System.out.println("4.- Dividir los numeros");
             System.out.println("5.- Salir del programa");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opcion: ");
 
             try {
                 opcion = scanner.nextInt();
@@ -66,7 +66,7 @@ import java.util.InputMismatchException;
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Entrada invalida. Por favor, introduce un numero.");
-                scanner.next(); // Limpiar el buffer
+                scanner.next(); 
                 opcion = 0; // Reiniciar opción para continuar el bucle
             }
 
