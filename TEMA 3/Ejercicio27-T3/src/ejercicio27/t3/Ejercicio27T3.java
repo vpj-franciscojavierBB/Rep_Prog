@@ -19,12 +19,12 @@ public class Ejercicio27T3 {
 
         System.out.print("Introduce el primer numero: ");
         num1 = scanner.nextDouble();
-
+                                                               //Preguntar los números
         System.out.print("Introduce el segundo numero: ");
         num2 = scanner.nextDouble();
 
         do {
-            System.out.println("--- MENU ---");
+            System.out.println("--- MENU ---");            //Mostrar el menú
             System.out.println("1.- Sumar los numeros");
             System.out.println("2.- Restar los numeros");
             System.out.println("3.- Multiplicar los numeros");
@@ -33,7 +33,7 @@ public class Ejercicio27T3 {
             System.out.print("Elige una opcion: ");
             opcion = scanner.nextInt();
 
-            switch (opcion) {
+            switch (opcion) {    //Dependiendo de la opcioón que elija la persona, se hace una operación u otra, excapando del casop de que el segundo número fuese 0 indicando qque no se puede dividir entre 0
                 case 1:
                     System.out.println("Resultado de la suma: " + (num1 + num2));
                     break;
