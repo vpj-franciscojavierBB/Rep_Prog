@@ -41,4 +41,4 @@ public class Ejercicio9T4 {
         }
         System.out.println("El menor de los tres numeros es: " + menor);
     }
-}
+}                                   

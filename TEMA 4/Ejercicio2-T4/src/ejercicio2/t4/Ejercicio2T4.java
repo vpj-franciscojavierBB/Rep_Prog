@@ -27,17 +27,13 @@ public class Ejercicio2T4 {
         float resultado; // Variable para almacenar el resultado de la operación
         String operacion; // Variable para saber qué operación se hizo
 
-        // Si el primer número es mayor que 10, hacemos la operación producto
-        if (n1 > 10) {
+        if (n1 > 10) {// Si el primer número es mayor que 10, hacemos la operación producto
             resultado = suma.producto(n1, n2); // Llamamos al método producto de la clase suma
             operacion = "producto";
-        } else {
-            // Si no, realizamos una suma
+        } else { // Si no, realizamos una suma
             resultado = suma.suma(n1, n2); // Llamamos al método suma de la clase suma
             operacion = "suma";
         }
-
-        // Imprimimos el resultado
         System.out.println("La operación que se realizó es: " + operacion + " y el resultado es: " + resultado);
     }
 }
